@@ -1,16 +1,12 @@
 # Pytesseract-Practice
 ## Quick Start (tesseract 5.2.0)
-    <html>
-      <head>
-      from PIL import Image
-      import pytesseract
+    from PIL import Image
+    import pytesseract
 
-      img_path = 'data-test-img/text-img.png'
-      txtImg = Image.open(img_path)
-      text = pytesseract.image_to_string(txtImg)
-      print(text)
-      </head>
-    </html>
+    img_path = 'data-test-img/text-img.png'
+    txtImg = Image.open(img_path)
+    text = pytesseract.image_to_string(txtImg)
+    print(text)
 
 ## Install Tesseract
 `
