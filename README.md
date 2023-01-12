@@ -34,9 +34,9 @@
     $ sudo apt-get install tesseract-ocr-tha
 
 ## Using Python and Tesserect
-    $ sudo pip install pytesseract
+    $ pip install pytesseract
 
 ## Task Lists
-- [ ] Quick Start
+- [x] Quick Start
 - [ ] Guide to Fine-Tuning
 - [ ] etc.
