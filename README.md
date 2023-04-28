@@ -1,11 +1,6 @@
 # Pytesseract-Practice
 ## Quick Start (tesseract 5.2.0)
-    from PIL import Image
-    import pytesseract
-
-    img_path = <local image path>
-    text = pytesseract.image_to_string(Image.open(img_path))
-    print(text)
+    - Basic how to use tesseract-ocr such as image to text etc.
 
 ## Install Tesseract
     $ sudo apt-get install libpng-dev libjpeg-dev libtiff-dev zlib1g-dev  
@@ -35,8 +30,3 @@
 
 ## Using Python and Tesserect
     $ pip install pytesseract
-
-## Task Lists
-- [x] Quick Start
-- [ ] Guide to Fine-Tuning
-- [ ] etc.
